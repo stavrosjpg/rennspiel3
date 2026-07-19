@@ -1,3 +1,6 @@
+const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+
 const road = {
     x: 200,
     width: 400
